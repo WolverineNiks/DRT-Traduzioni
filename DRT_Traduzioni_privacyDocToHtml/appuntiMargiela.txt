@@ -1,0 +1,17 @@
+CANADA consent
+COREA Tradotto non è stata fatta!!!
+Francia tradotto non è stato fatto!! 
+Germania tradotto non è stato fatto!
+Spagan tradotto non è stato fatto! (tenere DEF)
+Questi penso sia perché la ricorsione non entra nelle sotto cartelle se si hanno sotto cartelle e file insieme (forse ho dimenticato di togliere ELSE in dive)
+Giappone Consent
+USA Consent
+
+REVIEW:
+Canada: FR: Paragrafo 12 non è nei SELECT CASE (non è ne paragraph, ne list) 
+	EN: stessa cosa
+Entrambi sopra hanno draft nel word
+
+Cina draft nel word
+HK draft nel word
+USA draft nel word
