@@ -402,22 +402,22 @@
         },
         "CN": {
             "PRIVACY": {
-                "HEADER": "PRIVACY PREFERENCES",
-                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER": "您的隐私设置",
+                "HEADER_SUB": "我确认我已年满16岁，并且我已阅读数据控制者根据当地适用法律所提供的信息，我知道提供个人数据并将其用于市场营销和剖析目的是可选项，我对此表示：",
                 "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. and Diesel Dragon Trading Co. Ltd to the processing of my personal data for Marketing* purposes as described in paragraphs 3.1.c) and 3.3.e) of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my personal data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "本人已阅读相关信息公告，并授权Diesel S.p.A.及 鼎赛龙(上海)商业有限公司处理按信息公告第3.1. c)及3.1. e)条所述之市场营销*目的使用本人的个人数据，具体如下：",
+                "FLAG_PROFILING_OPTIN_TEXT": "在阅读信息公告后，本人授权联合控制者 OTB S.p.A.和 Diesel S.p.A.为客户分析之目的处理本人的个人数据，以提供如信息公告第3.2. a)段为向您提供符合您偏好的体验而进行的客户分析*。",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "PRIVACY_LINK": "for full text of information notice click here",
-                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_LINK_DCB": "我确认已阅读的隐私政策。",
                 "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
                 "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
                 "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
-                "AGREE": "Agree"
+                "AGREE": "同意"
             }
         },
         "CY": {
@@ -542,22 +542,22 @@
         },
         "HK": {
             "PRIVACY": {
-                "HEADER": "您的隐私设置",
-                "HEADER_SUB": "我確認我已年滿16周歲，並且，我已經閱讀數據控制者根據當地適用的法律所提供的說明通知；我明白，提供個人數據用於分析和行銷目的屬於可選項目，並且，我：",
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I am over 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
                 "HEADER_SUB_1": "",
-                "GENERAL_CONSENT_NAM": "將我的個人數據轉移至本說明通知第1段和第5段所提及的國外數據控制者",
+                "GENERAL_CONSENT_NAM": "to the transfer of my Personal Data outside of the country to Data Controller as referred in paragraphs 1 and 5 of the information notice",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "將個人數據用於行銷目的、發送通訊、簡報和促銷材料、派發廣告材料或直接銷售材料、進行市場調查、商業通訊以及用自動化系統（電子郵件、其他透過通信網絡運行的通信系統，包括但不僅限於短訊、多媒體短訊、Whatsapp）以及傳統的聯系方式（書信）定制的通訊，以及在數據控制者的全球商店所提供的定制銷售服務。",
-                "FLAG_PROFILING_OPTIN_TEXT": "將個人數據用於分析目的，即按照自動個人數據處理方式分析我的消費選擇，包括在數據控制者的全球商店和網站的購物詳情等相關數據。此分析處理的目的旨在預測我的購買偏好並建立客戶檔案。",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my personal data for Marketing* purposes as described in paragraph 3.1.c) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my personal data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "PRIVACY_LINK": "for full text of information notice click here",
-                "PRIVACY_LINK_DCB": "我确认已阅读的隐私政策。",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
                 "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
                 "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
-                "AGREE": "同意"
+                "AGREE": "Agree"
             }
         },
         "IE": {
@@ -587,8 +587,8 @@
                 "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my personal data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": " Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my personal data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
@@ -727,8 +727,8 @@
                 "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my personal data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my personal data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
@@ -749,6 +749,286 @@
                 "HEADER_SUB_2": "",
                 "FLAG_MARKETING_OPTIN_TEXT": "to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
                 "FLAG_PROFILING_OPTIN_TEXT": "to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "SG": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "本人已阅读相关信息公告，并授权Diesel S.p.A.按信息公告第3.3. e)条所述之市场营销*目的使用本人的个人数据，具体如下：",
+                "FLAG_PROFILING_OPTIN_TEXT": "在阅读信息公告后，本人授权联合控制者 OTB S.p.A.和 Diesel S.p.A.为客户分析之目的处理本人的个人数据，以提供如信息公告第3.2. a)段为向您提供符合您偏好的体验而进行的客户分析*。",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "BG": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "HR": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "EE": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "LV": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "LT": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "LU": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "PL": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "CZ": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "RO": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "RU": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my personal data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my personal data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "SK": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "SI": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
+                "HEADER_SUB_3": "",
+                "FOOTER_SUB_1": "",
+                "FLAG_TEXT_MESSAGE": "",
+                "PRIVACY_LINK": "for full text of information notice click here",
+                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
+            }
+        },
+        "HU": {
+            "PRIVACY": {
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
+                "GENERAL_CONSENT_NAM": "",
+                "HEADER_SUB_2": "",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my Personal Data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my Personal Data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice.",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",

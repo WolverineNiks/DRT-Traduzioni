@@ -39,6 +39,29 @@ import copy
                 break the loop
     
     Dump the python dict into json files
+
+    -update: 26/02/2021
+        All files lang.json must have all countries available per brand. And if the there isn't any translation for that country in that lang, english translation must be used. 
+        Code logic:
+            Every time a new country is been saved (basically, every time there's a <ENDP>), that country is added to a map which register's the language as KEY and a list of countries that have the translation in that lang. (e.g. 
+            {
+                'en' = ['at', 'de', 'fr',...], 
+                'de' = ['at', 'de', ...], 
+                ...
+            })
+            Before saving dumping every lang obj into the json file, iterate over every lang in python lang dict by the following logic:
+            for every lang in pythonLangDict
+                for every country in that lang obj (iterating over the new map created early)
+                    if the country is not present in map created early (that means, it has not got a translation in this language) AND if it has a translation in engilish
+                        fill all the countries that have not the transaltion for this language with the translation in english
+            ... (the rest is same, just to save the file)
+
+    -update: 01/03/2021
+        New countries, such as Bulgaria and Croazie (BG and HR), are only present in en.json. 
+        This is because, when the loop before comes to see if the
+
+    -TODO:  08/03/2021
+        Create a check on if a block ends without <ENDP>
 """
 #CONSTANTS 
 BRAND = "2_20"
@@ -213,16 +236,17 @@ print("Country Per Languages Map: ")
 print(langPerCountriesMap)
 
 for lang in langFilesMap.keys():    #For each file to be created
-    print("Completing {lang} object to save it into {lang}.json")
-    for count in langFilesMap[lang][BRAND]: #For every country in the file 
-        if count not in langPerCountriesMap[lang] and count in langPerCountriesMap['en']: #If we don't have a translation for that country AND there is a translation in english for this country
+    print("Completing " + lang + " object to save it into " + lang + ".json")
+    for count in langPerCountriesMap['en']: #For every country that has translation in english
+        if count not in langPerCountriesMap[lang]:  #To not ovveride the original translations, only if the it doesn't have a translation for that country in that langauge
             enLangCountObj = copy.deepcopy(langFilesMap['en'][BRAND][count]['PRIVACY']) #Copy it's english translation
-            langFilesMap[lang][BRAND][count]['PRIVACY'] = enLangCountObj    #Use that 
+            basicObj = enLangCountObj    #If the country hasn't got an object in that lang, it will create one  
+            privacyObj = {"PRIVACY" : basicObj}
+            langFilesMap[lang][BRAND][count] = privacyObj
+    if lang != 'en_GB':
+        langFilesMap[lang][BRAND]['GB']['PRIVACY'] = langFilesMap['en_GB'][BRAND]['GB']['PRIVACY']
     path = "C:\\Users\\NikhilChander\\Documents\\OTB\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\resultJsons\\" + lang + '.json'
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(langFilesMap[lang], f, ensure_ascii=False, indent=4)
-
-
-
 srcRead.close()
 
