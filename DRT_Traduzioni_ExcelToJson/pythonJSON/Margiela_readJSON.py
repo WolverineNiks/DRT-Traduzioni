@@ -11,7 +11,7 @@ import os
         - <PARA> for the text
     Each must have only one tag for Country and one for lang, whereas it can have multiple <PARA> tags.
     <PARA> tags positions are important as it will read them sequently to map them correctly. 
-    For this project, first <PARA> is mapped to marketing varibale, secondo one to pofiling variable and, if it exists, third and fourth to nam and sms respectively.
+    For this project, first <PARA> is mapped to marketing varibale, secondo one to pofiling variable and, if it exists, third and fourth to foot_marketing and foot_profiling respectively.
     The Source file must end with <ENDF> tag so that it defines the EOF (End of File). 
 
     Project requisites:
@@ -22,7 +22,7 @@ import os
             if tag is <CONT>: then the content of the file should be a country (e.g. "AT")
             if tag is <LANG>: then the content of the line should be a language (e.g. "en")
             if tag is <PARA>: 
-                based on the position reading the file sequently, it will read the marketing, profiling, nam or sms respectively 
+                based on the position reading the file sequently, it will read the marketing, profiling, foot_marketing or foot_profiling respectively 
             if tag is <ENDP>: then save it by the following logic:
                 Search for the language object in the python dict created early:
                     - if found: 
@@ -65,7 +65,7 @@ import os
         Create a check on if a block ends without <ENDP>
 """
 #CONSTANTS 
-BRAND = "1_60"
+BRAND = "5_80"
 COUNTRY_PH = "<CONT>"   #PH = Place holder
 LANGUAGE_PH = "<LANG>"
 PARA_PH = "<PARA>"
@@ -73,70 +73,62 @@ END_PH = "<ENDF>"
 ENDPARA_PH = "<ENDP>"
 MarketingJSON_PH = "FLAG_MARKETING_OPTIN_TEXT"
 ProfilingJSON_PH = "FLAG_PROFILING_OPTIN_TEXT"
-NamJSON_PH = "GENERAL_CONSENT_NAM"
-smsJSON_PH = "FLAG_TEXT_MESSAGE"
-ComunicationJSON_PH = "COMMUNICATION_DATA"
-
-MarketingLinkValue = "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE"
-ProfilingLinkValue = "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE"
-PrivacyLinkValue = "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE"
 
 def saveItToDict(langFilesMap, vars):
-    if vars["lang"] in langFilesMap:    #JSON for this vars["lang"] already exists (Langugage)
+    if vars["lang"] in langFilesMap:    #JSON for this vars["lang"] already exists
         langObj = langFilesMap[vars["lang"]]
-        if vars["country"] in langObj[BRAND]:   #JSON has also this country! #SAVE: update the json with new variables (Country)
+        if vars["country"] in langObj[BRAND]:   #JSON has also this country! #SAVE: update the json with new variables
             langObj[BRAND][vars["country"]]["PRIVACY"][MarketingJSON_PH] = vars["marketing"]
             langObj[BRAND][vars["country"]]["PRIVACY"][ProfilingJSON_PH] = vars["profiling"]
-            langObj[BRAND][vars["country"]]["PRIVACY"][ComunicationJSON_PH] = vars["comunication"]
-        else:   #New vars["country"] for the json (New Country)
+        else:   #New vars["country"] for the json
             print("Creating new country: " + vars["country"] + " for " + vars["lang"] + ".json")
             basicObj = {
-                "HEADER": "AUTHORIZATION FOR DATA PROCESSING",
-                "HEADER_SUB_1": "I confirm I’m over 16 years old and I have read the Privacy Policy provided by the Data Controllers in accordance with local applicable laws, and I",
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
                 MarketingJSON_PH: vars["marketing"],
                 ProfilingJSON_PH: vars["profiling"],
                 "HEADER_SUB_3": "",
-                "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
+                "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
-                ComunicationJSON_PH: vars["comunication"],
-                "PRIVACY_MARKETING_LINK": MarketingLinkValue,
-                "PRIVACY_PROFILING_LINK": ProfilingLinkValue,
-                "PRIVACY_TERMCOND_LINK": PrivacyLinkValue,
-                "PRIVACY_LINK": "I confirm that I have read privacy policy.",
+                "COMMUNICATION_DATA": "",
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "PRIVACY_LINK": "for full text of information notice click here",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "AGREE": "Agree"
             }
             privacyObj = {
                 "PRIVACY":basicObj
             }
             langObj[BRAND][vars["country"]] = privacyObj    #SAVE: updates the lang json by creating a new country obj
-    else:   #New JSON for the language (New Language)
+    else:   #New JSON for the language
         print("Creating new file " + vars["lang"] + ".json")
         newLangObj = copy.deepcopy(langFilesMap["en"])  #a deepcopy of the en object as it's the default language
         if vars["country"] in newLangObj[BRAND]:   #JSON has also this vars["country"]
             newLangObj[BRAND][vars["country"]]["PRIVACY"][MarketingJSON_PH] = vars["marketing"]
             newLangObj[BRAND][vars["country"]]["PRIVACY"][ProfilingJSON_PH] = vars["profiling"]
-            newLangObj[BRAND][vars["country"]]["PRIVACY"][ComunicationJSON_PH] = vars["comunication"]
         else:   #New vars["country"] for the json
             basicObj = {
-                "HEADER": "AUTHORIZATION FOR DATA PROCESSING",
-                "HEADER_SUB_1": "I confirm I’m over 16 years old and I have read the Privacy Policy provided by the Data Controllers in accordance with local applicable laws, and I",
+                "HEADER": "PRIVACY PREFERENCES",
+                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
                 MarketingJSON_PH: vars["marketing"],
                 ProfilingJSON_PH: vars["profiling"],
                 "HEADER_SUB_3": "",
-                "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
+                "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
-                ComunicationJSON_PH: vars["comunication"],
-                "PRIVACY_MARKETING_LINK": MarketingLinkValue,
-                "PRIVACY_PROFILING_LINK": ProfilingLinkValue,
-                "PRIVACY_TERMCOND_LINK": PrivacyLinkValue,
-                "PRIVACY_LINK": "I confirm that I have read privacy policy.",
+                "PRIVACY_LINK": "for full text of information notice click here",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+                "AGREE": "Agree"
             }
             privacyObj = {
                 "PRIVACY":basicObj
@@ -144,12 +136,13 @@ def saveItToDict(langFilesMap, vars):
             newLangObj[BRAND][vars["country"]] = privacyObj
         langFilesMap[vars["lang"]] = newLangObj
 
+
+
 #Map(Brand, Map(country, Map(language, Map(privacy))))
 langFilesMap = {"da":{}, "de":{}, "el":{}, "en":{}, "en_GB":{}, "es":{}, "fi":{}, "fr":{}, "it":{}, "ja":{}, "ko":{}, "nl":{}, "no":{}, "pt":{}, "sv":{}, "zh":{}, "zh_HK":{}}
 print("Retrieving jsons from files...")
 os.chdir(r'C:\Users\Chander\Documents\DRT Traduzioni\DRT_Traduzioni_ExcelToJson\pythonJSON')
 for defJson in langFilesMap.keys():
-    #path = "C:\\Users\\NikhilChander\\Documents\\OTB\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\jsons\\" + defJson + ".json"
     path = 'jsons\\' + defJson + '.json'
     print("Processing: " + path)
     fRead = open(path, encoding="utf-8")
@@ -157,17 +150,15 @@ for defJson in langFilesMap.keys():
     langFilesMap[defJson] = data
     fRead.close()
 print("JSON files stored successfuly!")
-sourceFile = 'fixD2.html'
+sourceFile = 'fixMargiela.html'
 srcRead = open(sourceFile, 'r', encoding="utf-8")
 lang = ""
 country = ""
 marketing = ""
 profiling = ""
-comunication = ""
+### 06.04.2021 WARNING foot_marketing/profiling will read values from the source file but will not be used to save these values in the json file because they were meant to hold the footer values but it's not clear as per today if thats there right postition. In the source file they corresponde to 2nd and 4th PARA
 foot_marketing = ""
 foot_profiling = ""
-
-comunication = ""
 langPerCountriesMap = {}
 for key in langFilesMap.keys():
     langPerCountriesMap[key] = []
@@ -186,31 +177,27 @@ while True:
             else:
                 lang = "ERROR_LANG " + line 
         elif line.startswith(PARA_PH):
-            if marketing == "": #Marketing
+            if marketing == "": #Marketing 1st PARA
                 marketing = line[6:]
-            elif foot_marketing == "": #Marketing Footer
+            elif foot_marketing == "": #Marketing Footer 2nd PARA
                 foot_marketing = line[6:]
-            elif profiling == "":   #Profiling
+            elif profiling == "":   #Profiling 3rd PARA
                 profiling = line[6:]
-            elif foot_profiling == "": #Profiling Footer
-                foot_profiling = line[6:]
-            elif comunication == "": #Comunication Data
-                comunication = line[6:]
-            else:   #ERROR
-                marketing = "ERROR_PARA: Not enough PARA for the VARIABLES " + line
+            elif foot_profiling == "":   #Profiling Footer 4th PARA
+                    foot_profiling = line[6:]
+            else: #ERROR Something is wrong, more PARA then there sould be
+                marketing = "ERROR_PARA: Out of range" + line
                 profiling = marketing
                 foot_profiling = marketing
-                foot_profiling = marketing
-                comunication = marketing
+                foot_marketing = marketing
         elif line.startswith(ENDPARA_PH):
-            if country != "" and lang != "" and marketing != "" and profiling != "" and foot_profiling != "" and foot_marketing != "" and comunication != "":    #End of Paragraph: Let's save it
+            if country != "" and lang != "" and marketing != "" and profiling != "" and foot_marketing != "" and foot_profiling != "":    #End of Paragraph: Let's save it
                 print("Saving Country: " + country + " Language: " + lang)
                 vars = {
                     "country":country,
                     "lang":lang, 
                     "marketing":marketing,
-                    "profiling":profiling,
-                    "comunication": comunication
+                    "profiling":profiling
                 }
                 saveItToDict(langFilesMap, vars)
                 if lang in langPerCountriesMap:
@@ -222,11 +209,10 @@ while True:
                 lang = "" 
                 marketing = "" 
                 profiling = ""
-                comunication = ""
-                foot_profiling = ""
                 foot_marketing = ""
+                foot_profiling = ""
             else:
-                print("ERROR MISSING VARIABLES: Country: " + country + " Lang: " + lang + " Marketing: " + marketing + " Profiling: " + profiling + " Comunication: " + comunication + " Footer Marketing: " + foot_marketing + " Footer Profiling: " + foot_profiling)
+                print("ERROR MISSING VARIABLES: Country: " + country + " Lang: " + lang + " Marketing: " + marketing + " Profiling: " + profiling)
         elif line.startswith(END_PH):   #End of File
             print("File END")
             break
@@ -238,14 +224,14 @@ print(langPerCountriesMap)
 for lang in langFilesMap.keys():    #For each file to be created
     print("Completing " + lang + " object to save it into " + lang + ".json")
     for count in langPerCountriesMap['en']: #For every country that has translation in english
-        if count not in langPerCountriesMap[lang]:  #To not ovveride the original translations, only if it doesn't have a translation for that country in that langauge
+        if count not in langPerCountriesMap[lang]:  #To not ovveride the original translations, only if the it doesn't have a translation for that country in that langauge
             enLangCountObj = copy.deepcopy(langFilesMap['en'][BRAND][count]['PRIVACY']) #Copy it's english translation
             basicObj = enLangCountObj    #If the country hasn't got an object in that lang, it will create one  
             privacyObj = {"PRIVACY" : basicObj}
             langFilesMap[lang][BRAND][count] = privacyObj
     if lang != 'en_GB':
         langFilesMap[lang][BRAND]['GB']['PRIVACY'] = langFilesMap['en_GB'][BRAND]['GB']['PRIVACY']
-    path = "resultJsons\\D2_" + lang + '.json'
+    path = "resultJsons\\Margiela_" + lang + '.json'
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(langFilesMap[lang], f, ensure_ascii=False, indent=4)
 srcRead.close()

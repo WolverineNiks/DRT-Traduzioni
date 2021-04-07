@@ -65,7 +65,7 @@ import os
         Create a check on if a block ends without <ENDP>
 """
 #CONSTANTS 
-BRAND = "1_60"
+BRAND = "1_130"
 COUNTRY_PH = "<CONT>"   #PH = Place holder
 LANGUAGE_PH = "<LANG>"
 PARA_PH = "<PARA>"
@@ -157,7 +157,7 @@ for defJson in langFilesMap.keys():
     langFilesMap[defJson] = data
     fRead.close()
 print("JSON files stored successfuly!")
-sourceFile = 'fixD2.html'
+sourceFile = 'fixJustCavalli.html'
 srcRead = open(sourceFile, 'r', encoding="utf-8")
 lang = ""
 country = ""
@@ -245,7 +245,7 @@ for lang in langFilesMap.keys():    #For each file to be created
             langFilesMap[lang][BRAND][count] = privacyObj
     if lang != 'en_GB':
         langFilesMap[lang][BRAND]['GB']['PRIVACY'] = langFilesMap['en_GB'][BRAND]['GB']['PRIVACY']
-    path = "resultJsons\\D2_" + lang + '.json'
+    path = "resultJsons\\JC_" + lang + '.json'
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(langFilesMap[lang], f, ensure_ascii=False, indent=4)
 srcRead.close()

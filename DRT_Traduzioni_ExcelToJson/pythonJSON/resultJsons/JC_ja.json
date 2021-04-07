@@ -66,18 +66,18 @@
                 "HEADER_SUB_1": "I confirm I’m over 16 years old and I have read the Privacy Policy provided by the Data Controllers in accordance with local applicable laws, and I",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "I agree to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "I agree to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Staff International S.p.A. to the processing of my Personal Data for Marketing* purposes in order to send me advertising material relating to its services and products as described in paragraph 3.1, b) of the information notice.",
+                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Staff International S.p.A. to process my Personal Data for the purpose to create a Customer profile and provide of Customer analysis to provide experiences in line with your actual and inferred preferences* as described in paragraph 3.2.a) of the information notice",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
                 "FLAG_TEXT_MESSAGE": "",
-                "COMMUNICATION_DATA": "",
+                "COMMUNICATION_DATA": "Having read the information notice, I authorize STAFF INTERNATIONAL S.p.A to communicate my Personal Data (limited to name, surname, email address, telephone number) to Roberto Cavalli S.p.A. so that it can be used for marketing purposes, or for sending advertising material or direct sales, carrying out market research, sending sales promotions with automated contact methods (e-mail through the sending of newsletters, SMS, MMS, online messaging platforms, etc.) and standard (paper mail)",
                 "PRIVACY_MARKETING_LINK": "",
                 "PRIVACY_PROFILING_LINK": "",
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "AGREE": "Agree"
             }
         },
         "JP": {
@@ -226,12 +226,12 @@
                 "HEADER_SUB_1": "I confirm I’m over 16 years old and I have read the Privacy Policy provided by the Data Controllers in accordance with local applicable laws, and I",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Staff International S.p.a. to the processing of my personal data for Marketing* purposes on various communication channels online and offline as described in paragraph 3.1.b) of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Staff International S.p.a.   to process my personal data for the purpose to create a Customer profile and provide of Customer analysis to provide experiences in line with your actual and inferred preferences* as described in paragraph 3.2.a) of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "I agree to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
+                "FLAG_PROFILING_OPTIN_TEXT": "I agree to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
                 "FLAG_TEXT_MESSAGE": "",
-                "COMMUNICATION_DATA": "Having read the privacy policy, I authorize STAFF INTERNATIONAL S.p.A. to communicate my personal data (limited to name, surname, email address, telephone number) to DSquared2 S.p.A. so that it can be used for marketing purposes, or for sending advertising material or direct sales, carrying out market research, sending sales promotions with automated contact methods (e-mail through the sending of newsletters, SMS, MMS, online messaging platforms, etc.) and standard (paper mail)",
+                "COMMUNICATION_DATA": "",
                 "PRIVACY_MARKETING_LINK": "",
                 "PRIVACY_PROFILING_LINK": "",
                 "PRIVACY_TERMCOND_LINK": "",
@@ -266,18 +266,18 @@
                 "HEADER_SUB_1": "I confirm I’m over 16 years old and I have read the Privacy Policy provided by the Data Controllers in accordance with local applicable laws, and I",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Staff International S.p.A. to the processing of my Personal Data for Marketing* purposes in order to send me advertising material relating to its services and products as described in paragraph 3.1, b) of the information notice.",
-                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Staff International S.p.A. to process my Personal Data for the purpose to create a Customer profile and provide of Customer analysis to provide experiences in line with your actual and inferred preferences* as described in paragraph 3.2.a) of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "I agree to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
+                "FLAG_PROFILING_OPTIN_TEXT": "I agree to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
                 "FLAG_TEXT_MESSAGE": "",
-                "COMMUNICATION_DATA": "Having read the information notice, I authorize STAFF INTERNATIONAL S.p.A to communicate my Personal Data (limited to name, surname, email address, telephone number) to DSQUARED S.p.A. so that it can be used for marketing purposes, or for sending advertising material or direct sales, carrying out market research, sending sales promotions with automated contact methods (e-mail through the sending of newsletters, SMS, MMS, online messaging platforms, etc.) and standard (paper mail):",
+                "COMMUNICATION_DATA": "",
                 "PRIVACY_MARKETING_LINK": "",
                 "PRIVACY_PROFILING_LINK": "",
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": "Agree"
+                "AGREE": ""
             }
         },
         "JP": {
@@ -1188,13 +1188,13 @@
         },
         "JP": {
             "PRIVACY": {
-                "HEADER": "Consent to the processing of Personal Data",
-                "HEADER_SUB": "I confirm I’m over 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+                "HEADER": "個人データ処理への同意",
+                "HEADER_SUB": "私は、私の年齢が16歳以上であり、適用法に基づいてデータ管理者が提供した『個人情報保護方針について』の説明を読み、プロファイル作成とマーケティングという利用目的のために個人データを提供することは任意であることを理解します。その上で、私は：",
                 "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "『個人情報保護方針について』の説明の 2 b. にしたがう、マーケティングという利用目的（ニュースレター、新着情報、プロモーション情報の送付）のための個人データの利用に対して",
+                "FLAG_PROFILING_OPTIN_TEXT": "『個人情報保護方針について』の説明の 2 c. にしたがう、消費者の挙動に関するプロファイル作成という利用目的のための個人データの利用に対して",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
@@ -1204,7 +1204,7 @@
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": "Agree"
+                "AGREE": "同意します"
             }
         },
         "ES": {
@@ -1401,12 +1401,12 @@
         "JP": {
             "PRIVACY": {
                 "HEADER": "PRIVACY PREFERENCES",
-                "HEADER_SUB": "Join Maison Margiela<br><br>As a privileged member, receive tailor-made attentions responding to your personal profile. You will be entitled to invites to special events, updates on our new collections, notification when your favourite products arrive in store and exclusive offers.",
-                "HEADER_SUB_1": "I confirm I am over 16 years old and I have read the information notice provided by Maison Margiela Group, local subsidiary, and relevant parent company OTB Spa in accordance with local applicable laws. I understand that providing the personal data for profiling and marketing purposes is optional and:",
+                "HEADER_SUB": "Maison Margielaに参加しよう<br><br>特別メンバーになると、お好みに合わせてカスタマイズされたサービスを受けることができます。特別イベントへの招待や最新コレクション情報、お気に入りの商品が店頭に到着したことを知らせるサービスや特別セールなどの情報を受けることができます。",
+                "HEADER_SUB_1": "私は16歳以上であることを確認し、Maison Margiela Groupおよび現地法人、さらに親会社であるOTB Spaによって、現地の適用法に従い用意したプライバシーポリシーを読んだことをここに宣言します。私はマーケティングとプロファイリングに個人情報を提供することが任意であることを理解した上で、以下について同意します。",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "I agree to the use of the Personal Data for marketing purposes (newsletters, news and promotions), in accordance to letter b. paragraph 2 of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "I agree to the use of the Personal Data for profiling purposes of my consumer behaviour, in accordance to letter c. paragraph 2 of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "プライバシーポリシーの第2章b項に従い、マーケティング（ニュースレター、最新ニュース、プロモーション）に個人情報を使用することに同意します。",
+                "FLAG_PROFILING_OPTIN_TEXT": "プライバシーポリシーの第2章c項に従い、自分の消費行動のプロファイリングに個人情報を使用することに同意します。",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",

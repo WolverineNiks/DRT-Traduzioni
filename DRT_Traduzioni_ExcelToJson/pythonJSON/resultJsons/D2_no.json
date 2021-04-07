@@ -77,7 +77,7 @@
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "AGREE": "Agree"
             }
         },
         "JP": {
@@ -97,7 +97,7 @@
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "AGREE": "Agree"
             }
         },
         "KR": {
@@ -297,7 +297,7 @@
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "AGREE": "Agree"
             }
         },
         "KR": {
@@ -707,8 +707,8 @@
                 "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Diesel S.p.A. to the processing of my personal data for Marketing* purposes as described in paragraph 3.1.d) of the information notice:",
-                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Controllers OTB S.p.A. and Diesel S.p.A. to process my personal data for the purpose of Customer analysis to provide experiences in line with your preferences* as described in paragraph 3.2.a) of the information notice",
+                "FLAG_MARKETING_OPTIN_TEXT": "Jeg har lest informasjonsmerknaden og gir Diesel S.p.A. tillatelse til å behandle personopplysningene mine for formålene Markedsføring*, som beskrevet i avsnitt 3.1.d) i informasjonsmerknaden:",
+                "FLAG_PROFILING_OPTIN_TEXT": "Jeg har lest informasjonsmerknaden og gir de felles behandlingsansvarlige OTB S.p.A. og Diesel S.p.A. tillatelse til å behandle personopplysningene mine for Kundeanalyse på linje med dine preferanser*, som beskrevet i avsnitt 3.2.a) i informasjonsmerknaden.",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
@@ -1395,7 +1395,7 @@
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "AGREE": "Agree"
             }
         },
         "JP": {
@@ -1416,7 +1416,7 @@
                 "PRIVACY_TERMCOND_LINK": "",
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": ""
+                "AGREE": "Agree"
             }
         },
         "KR": {
