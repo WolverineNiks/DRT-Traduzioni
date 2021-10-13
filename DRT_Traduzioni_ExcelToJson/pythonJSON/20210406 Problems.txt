@@ -1,0 +1,3 @@
+Giappone ha una struttura diversa dagli altri ma sono riuscito, guardando la versione in inglese a riconoscere i vari pezzi. Nonostante questo sforzo, rimane comunque da verificare il footer per Marketing e Profiling in Giapponese dato che entrambi sono dentro un unico paragrafo. 
+ - JP jp: Footer in inglese, non riesco a separarli dato che sono in un unico paragrafo.
+
