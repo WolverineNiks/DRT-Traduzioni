@@ -3,12 +3,21 @@ import copy
 import os
 
 #BrandList
+<<<<<<< HEAD
 brands = {"Marni":"4_40", "Margiela":"5_80", "D2":"1_60", "JC":"1_130", "Diesel":"2_20"}
 
 #Map(Brand, Map(country, Map(language, Map(privacy))))
 langFilesMap = {"ca":{}, "da":{}, "de":{}, "el":{}, "en":{}, "en_GB":{}, "es":{}, "fi":{}, "fr":{}, "it":{}, "ja":{}, "ko":{}, "nl":{}, "no":{}, "pt":{}, "sv":{}, "zh":{}, "zh_HK":{}}
 print("Retrieving jsons from files...")
 os.chdir(r'C:\\Users\\nikhi\\Documents\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON')
+=======
+brands = {"Marni":"4_40", "Margiela":"5_80", "D2":"1_60", "JC":"1_130"}
+
+#Map(Brand, Map(country, Map(language, Map(privacy))))
+langFilesMap = {"da":{}, "de":{}, "el":{}, "en":{}, "en_GB":{}, "es":{}, "fi":{}, "fr":{}, "it":{}, "ja":{}, "ko":{}, "nl":{}, "no":{}, "pt":{}, "sv":{}, "zh":{}, "zh_HK":{}}
+print("Retrieving jsons from files...")
+os.chdir(r'C:\Users\Chander\Documents\DRT Traduzioni\DRT_Traduzioni_ExcelToJson\pythonJSON')
+>>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
 for defJson in langFilesMap.keys():
     path = 'jsons\\' + defJson + '.json'
     print("Processing: " + path)
