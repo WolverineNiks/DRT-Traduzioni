@@ -3,12 +3,12 @@ import copy
 import os
 
 #BrandList
-brands = {"Marni":"4_40", "Margiela":"5_80", "D2":"1_60", "JC":"1_130"}
+brands = {"Marni":"4_40", "Margiela":"5_80", "D2":"1_60", "JC":"1_130", "Diesel":"2_20"}
 
 #Map(Brand, Map(country, Map(language, Map(privacy))))
-langFilesMap = {"da":{}, "de":{}, "el":{}, "en":{}, "en_GB":{}, "es":{}, "fi":{}, "fr":{}, "it":{}, "ja":{}, "ko":{}, "nl":{}, "no":{}, "pt":{}, "sv":{}, "zh":{}, "zh_HK":{}}
+langFilesMap = {"ca":{}, "da":{}, "de":{}, "el":{}, "en":{}, "en_GB":{}, "es":{}, "fi":{}, "fr":{}, "it":{}, "ja":{}, "ko":{}, "nl":{}, "no":{}, "pt":{}, "sv":{}, "zh":{}, "zh_HK":{}}
 print("Retrieving jsons from files...")
-os.chdir(r'C:\Users\Chander\Documents\DRT Traduzioni\DRT_Traduzioni_ExcelToJson\pythonJSON')
+os.chdir(r'C:\\Users\\nikhi\\Documents\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON')
 for defJson in langFilesMap.keys():
     path = 'jsons\\' + defJson + '.json'
     print("Processing: " + path)

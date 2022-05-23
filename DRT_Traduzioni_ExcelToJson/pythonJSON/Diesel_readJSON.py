@@ -150,10 +150,10 @@ def saveItToDict(langFilesMap, vars):
         langFilesMap[vars["lang"]] = newLangObj
 
 #Map(Brand, Map(country, Map(language, Map(privacy))))
-langFilesMap = {"de":{}, "en":{}, "en_GB":{}, "es":{}, "fr":{}, "it":{}, "ja":{}, "ko":{}, "pt":{}, "zh":{}, "zh_HK":{}}
+langFilesMap = {"ca":{}, "da":{}, "de":{}, "el":{}, "en":{}, "en_GB":{}, "es":{}, "fi":{}, "fr":{}, "it":{}, "ja":{}, "ko":{}, "nl":{}, "no":{}, "pt":{}, "sv":{}, "zh":{}, "zh_HK":{}}
 print("Retrieving jsons from files...")
 for defJson in langFilesMap.keys():
-    path = "C:\\Users\\NikhilChander\\Documents\\OTB\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\jsons\\" + defJson + ".json"
+    path = "C:\\Users\\nikhi\\Documents\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\jsons\\" + defJson + ".json"
     print("Processing: " + path)
     fRead = open(path, encoding="utf-8")
     data = json.load(fRead)
@@ -245,7 +245,7 @@ for lang in langFilesMap.keys():    #For each file to be created
             langFilesMap[lang][BRAND][count] = privacyObj
     if lang != 'en_GB':
         langFilesMap[lang][BRAND]['GB']['PRIVACY'] = langFilesMap['en_GB'][BRAND]['GB']['PRIVACY']
-    path = "C:\\Users\\NikhilChander\\Documents\\OTB\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\resultJsons\\" + lang + '.json'
+    path = "C:\\Users\\nikhi\\Documents\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\resultJsons\\Diesel_" + lang + '.json'
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(langFilesMap[lang], f, ensure_ascii=False, indent=4)
 srcRead.close()
