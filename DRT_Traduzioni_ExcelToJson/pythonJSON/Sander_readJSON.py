@@ -64,7 +64,7 @@ import copy
         Create a check on if a block ends without <ENDP>
 """
 #CONSTANTS 
-BRAND = "6_20"
+BRAND = "6_90"
 COUNTRY_PH = "<CONT>"   #PH = Place holder
 LANGUAGE_PH = "<LANG>"
 PARA_PH = "<PARA>"
@@ -230,7 +230,7 @@ for lang in langFilesMap.keys():    #For each file to be created
             langFilesMap[lang][BRAND][count] = privacyObj
     if lang != 'en_GB':
         langFilesMap[lang][BRAND]['GB']['PRIVACY'] = langFilesMap['en_GB'][BRAND]['GB']['PRIVACY']
-    path = "C:\\Users\\nikhi\\Documents\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\resultJsons\\Diesel_" + lang + '.json'
+    path = "C:\\Users\\nikhi\\Documents\\GIT-DRT_Traduzioni\\DRT_Traduzioni_ExcelToJson\\pythonJSON\\resultJsons\\JilSander_" + lang + '.json'
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(langFilesMap[lang], f, ensure_ascii=False, indent=4)
 srcRead.close()
