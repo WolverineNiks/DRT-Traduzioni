@@ -1,7 +1,7 @@
 import ftfy
 import codecs
 
-fileName = ["Diesel.html","Marni.html"]
+fileName = ["Jil Sander.html"]
 
 
 for name in fileName:

@@ -71,17 +71,10 @@
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
                 "FLAG_TEXT_MESSAGE": "",
-<<<<<<< HEAD
                 "COMMUNICATION_DATA": "Having read the information notice, I authorize STAFF INTERNATIONAL S.p.A to communicate my Personal Data (limited to name, surname, email address, telephone number) to Roberto Cavalli S.p.A. so that it can be used for marketing purposes, or for sending advertising material or direct sales, carrying out market research, sending sales promotions with automated contact methods (e-mail through the sending of newsletters, SMS, MMS, online messaging platforms, etc.) and standard (paper mail)",
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "COMMUNICATION_DATA": "",
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -238,17 +231,10 @@
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
                 "FLAG_TEXT_MESSAGE": "",
-<<<<<<< HEAD
                 "COMMUNICATION_DATA": "Having read the privacy policy, I authorize STAFF INTERNATIONAL S.p.A. to communicate my personal data (limited to name, surname, email address, telephone number) to DSquared2 S.p.A. so that it can be used for marketing purposes, or for sending advertising material or direct sales, carrying out market research, sending sales promotions with automated contact methods (e-mail through the sending of newsletters, SMS, MMS, online messaging platforms, etc.) and standard (paper mail)",
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "COMMUNICATION_DATA": "",
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": ""
@@ -285,17 +271,10 @@
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "I understand that providing the personal data for profiling and marketing purposes is optional.",
                 "FLAG_TEXT_MESSAGE": "",
-<<<<<<< HEAD
                 "COMMUNICATION_DATA": "Having read the information notice, I authorize STAFF INTERNATIONAL S.p.A to communicate my Personal Data (limited to name, surname, email address, telephone number) to DSQUARED S.p.A. so that it can be used for marketing purposes, or for sending advertising material or direct sales, carrying out market research, sending sales promotions with automated contact methods (e-mail through the sending of newsletters, SMS, MMS, online messaging platforms, etc.) and standard (paper mail):",
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "COMMUNICATION_DATA": "",
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1123,27 +1102,6 @@
         }
     },
     "4_40": {
-        "AT": {
-            "PRIVACY": {
-                "HEADER": "Zustimmung zur Verarbeitung der personenbezogenen Daten",
-                "HEADER_SUB": "Ich bestätige, dass ich im Sinne der Gesetze meines Landes alt genug bin, die Datenschutzerklärung des Datenverantwortlichen gemäß den lokal anwendbaren Gesetzen gelesen habe, habe verstanden, dass die Bereitstellung personenbezogener Daten zu Profilerstellungs- und Marketingzwecken freiwillig ist, und:",
-                "HEADER_SUB_1": "",
-                "GENERAL_CONSENT_NAM": "",
-                "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "Ich habe die Datenschutzerklärung gelesen und willige in die Verarbeitung meiner personenbezogenen Daten durch Marni Group S.r.l. zu Marketing*-Zwecken laut Abschnitt 3.1.b) der Datenschutzerklärung ein",
-                "FLAG_PROFILING_OPTIN_TEXT": "Ich habe die Datenschutzerklärung gelesen und willige in die Verarbeitung meiner personenbezogenen Daten durch die gemeinsam Verantwortlichen OTB S.p.A. und Marni Group S.r.l. zu Zwecken der Kundenanalyse im Hinblick auf personalisierte Inhalte entsprechend meinen Präferenzen* laut Abschnitt 3.2.a) der Datenschutzerklärung ein.",
-                "HEADER_SUB_3": "",
-                "FOOTER_SUB_1": "",
-                "FLAG_TEXT_MESSAGE": "",
-                "COMMUNICATION_DATA": "",
-                "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
-                "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
-                "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-                "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
-                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": "Ich stimme zu"
-            }
-        },
         "DE": {
             "PRIVACY": {
                 "HEADER": "Zustimmung zur Verarbeitung der personenbezogenen Daten",
@@ -1151,21 +1109,15 @@
                 "HEADER_SUB_1": "",
                 "GENERAL_CONSENT_NAM": "",
                 "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "Ich habe die Datenschutzerklärung gelesen und willige in die Verarbeitung meiner personenbezogenen Daten durch Marni Group S.r.l. zu Marketing*-Zwecken laut Abschnitt 3.1.b) der Datenschutzerklärung ein",
-                "FLAG_PROFILING_OPTIN_TEXT": "Ich habe die Datenschutzerklärung gelesen und willige in die Verarbeitung meiner personenbezogenen Daten durch die gemeinsam Verantwortlichen OTB S.p.A. und Marni Group S.r.l. zu Zwecken der Kundenanalyse im Hinblick auf personalisierte Inhalte entsprechend meinen Präferenzen* laut Abschnitt 3.2.a) der Datenschutzerklärung ein.",
+                "FLAG_MARKETING_OPTIN_TEXT": "EINWILLIGUNGSERKLÄRUNG FÜR MARNI GROUP S.r.l. (DIGITALE VERSION)Ich habe die Datenschutzerklärung gelesen und willige in die Verarbeitung meiner personenbezogenen Daten durch Marni Group S.r.l. zu Marketing*-Zwecken laut Abschnitt 3.1.a) der Datenschutzerklärung ein",
+                "FLAG_PROFILING_OPTIN_TEXT": "EINWILLIGUNGSERKLÄRUNG FÜR DIE GEMEINSAM VERANTWORTLICHEN (DIGITALE VERSION)Ich habe die Datenschutzerklärung gelesen und willige in die Verarbeitung meiner personenbezogenen Daten durch die gemeinsam Verantwortlichen OTB S.p.A. und Marni Group S.r.l. zu Zwecken der Kundenanalyse im Hinblick auf personalisierte Inhalte entsprechend meinen Präferenzen* laut Abschnitt 3.2.a) der Datenschutzerklärung ein.",
                 "HEADER_SUB_3": "",
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Ich stimme zu"
@@ -1184,15 +1136,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1211,15 +1157,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": ""
@@ -1238,15 +1178,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1265,36 +1199,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-                "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
-                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "AGREE": "Agree"
-            }
-        },
-        "KO": {
-            "PRIVACY": {
-                "HEADER": "Consent to the processing of Personal Data",
-                "HEADER_SUB": "I confirm I’m over 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
-                "HEADER_SUB_1": "",
-                "GENERAL_CONSENT_NAM": "",
-                "HEADER_SUB_2": "",
-                "FLAG_MARKETING_OPTIN_TEXT": "Having read the information notice, I authorize Marni Group S.r.l. to the processing of my personal data for Marketing* purposes as described in paragraph 3.1.a) of the information notice",
-                "FLAG_PROFILING_OPTIN_TEXT": "Having read the information notice, I authorize the Joint Data Controllers OTB S.p.A. and Marni Group S.r.l. to process my personal data for the purpose of Customer analysis to provide experiences in line with your preferences** as described in paragraph 3.2.a) of the information notice",
-                "HEADER_SUB_3": "",
-                "FOOTER_SUB_1": "",
-                "FLAG_TEXT_MESSAGE": "",
-                "COMMUNICATION_DATA": "",
-                "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
-                "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
-                "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1313,15 +1220,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1340,15 +1241,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1367,15 +1262,9 @@
                 "FOOTER_SUB_1": "You can withdraw your consent at any time by clicking the unsubscribe link in the electronic messages or by contacting the Data Controllers at the following information:<br/><ul><li><b>OTB S.p.A.</b>, with registered offices in Italy, Breganze (Vi), Via dell'Industria 2, 36042, telephone +390445306555, email privacy@otb.net, </li><li><b>Marni Group Srl</b>, with registered offices in Italy, Milan, Via Sismondi Gian Carlo 70/B, 20133, telephone +390271055300, email privacy@marni.com.</li></ul>",
                 "FLAG_TEXT_MESSAGE": "You consent to us contacting you by phone, SMS, email, and other electronic messages about our products and promotions, including newsletters.",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1394,15 +1283,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Marni's privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1444,15 +1327,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "Ich bestätige, dass ich die Datenschutzrichtlinie von Margiela gelesen habe.",
                 "PRIVACY_LINK_DCB": "Ich bestätige, dass ich die Datenschutzrichtlinie gelesen habe.",
                 "AGREE": ""
@@ -1471,15 +1348,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": ""
@@ -1498,15 +1369,9 @@
                 "FOOTER_SUB_1": "Maison Margiela may respectively collect, use and store my Personal Data that I provide under this application for provision of services to me, direct marketing, and analysis of my shopping trends and behavior, in strict compliance with the Privacy Policy. It is voluntary for me to provide my Personal Data but Maison Margiela may not be able to provide me with services if I do not provide my Personal Data. My Personal Data will be kept confidential at all times, except that it may be provided on a confidential basis to third parties stated in and in accordance with the Privacy Policy (and I have read and acknowledge the list of third parties).<br><br>DirectMarketing: <br> (i) Maison Margiela may not use my Personal Data for direct marketing unless they have received my consent.<br>(ii) my Personal Data may be used by Maison Margiela to contact me in relation to news, events and promotional offers with respect to clothing and accessories, jewellery, luggages and bags, cosmetics, loyalty and reward programs, in accordance with the respective Privacy Policies.<br>Transfer out of my country of residence:<br>(iii) My Personal Data may be transferred outside of my country of residence for the Purposes stated in the respective Privacy Policies, subject to my consent below.<br>I understand I can opt-out of receiving direct marketing communications, or request for access to and correction/deletion of my Personal Data at any time by clicking the “unsubscribe” link or by contacting Maison Margiela at privacy@margiela.com",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": ""
@@ -1525,15 +1390,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1552,15 +1411,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": "Agree"
@@ -1600,15 +1453,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": ""
@@ -1627,15 +1474,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": ""
@@ -1654,15 +1495,9 @@
                 "FOOTER_SUB_1": "",
                 "FLAG_TEXT_MESSAGE": "",
                 "COMMUNICATION_DATA": "",
-<<<<<<< HEAD
                 "PRIVACY_MARKETING_LINK": "FOR DETAILS ABOUT MARKETING PURPOSES CLICK HERE",
                 "PRIVACY_PROFILING_LINK": "FOR DETAILS ABOUT PROFILING PURPOSES CLICK HERE",
                 "PRIVACY_TERMCOND_LINK": "FOR FULL TEXT OF INFORMATION NOTICE CLICK HERE",
-=======
-                "PRIVACY_MARKETING_LINK": "",
-                "PRIVACY_PROFILING_LINK": "",
-                "PRIVACY_TERMCOND_LINK": "",
->>>>>>> 3be6403fa970b6a45d4219d32fe3655b7f5d9e6c
                 "PRIVACY_LINK": "I confirm that I have read Margiela’s privacy policy.",
                 "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
                 "AGREE": ""

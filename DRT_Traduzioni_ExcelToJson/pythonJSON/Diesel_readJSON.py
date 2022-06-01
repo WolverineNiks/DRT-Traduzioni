@@ -75,6 +75,31 @@ ProfilingJSON_PH = "FLAG_PROFILING_OPTIN_TEXT"
 NamJSON_PH = "GENERAL_CONSENT_NAM"
 smsJSON_PH = "FLAG_TEXT_MESSAGE"
 
+def createBasicObj(vars):
+    basicObj = {
+        "HEADER": "PRIVACY PREFERENCES",
+        "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
+        "HEADER_SUB_1": "",
+        NamJSON_PH: "",
+        "HEADER_SUB_2": "",
+        MarketingJSON_PH: vars["marketing"],
+        ProfilingJSON_PH: vars["profiling"],
+        "HEADER_SUB_3": "",
+        "FOOTER_SUB_1": "",
+        smsJSON_PH: "",
+        "PRIVACY_LINK": "for full text of information notice click here",
+        "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
+        "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
+        "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
+        "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
+        "AGREE": "Agree"
+    }
+    if vars["nam"] != "":
+        basicObj[NamJSON_PH] = vars["nam"]
+    if vars["sms"] != "":
+        basicObj[smsJSON_PH] = vars["sms"]
+    return basicObj
+
 def saveItToDict(langFilesMap, vars):
     if vars["lang"] in langFilesMap:    #JSON for this vars["lang"] already exists
         langObj = langFilesMap[vars["lang"]]
@@ -87,27 +112,7 @@ def saveItToDict(langFilesMap, vars):
                 langObj[BRAND][vars["country"]]["PRIVACY"][smsJSON_PH] = vars["sms"]
         else:   #New vars["country"] for the json
             print("Creating new country: " + vars["country"] + " for " + vars["lang"] + ".json")
-            basicObj = {
-                "HEADER": "PRIVACY PREFERENCES",
-                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
-                "HEADER_SUB_1": "",
-                NamJSON_PH: "",
-                "HEADER_SUB_2": "",
-                MarketingJSON_PH: vars["marketing"],
-                ProfilingJSON_PH: vars["profiling"],
-                "HEADER_SUB_3": "",
-                "FOOTER_SUB_1": "",
-                smsJSON_PH: "",
-                "PRIVACY_LINK": "for full text of information notice click here",
-                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
-                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
-                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
-                "AGREE": "Agree"
-            }
-            if vars["nam"] != "" and vars["sms"] != "":
-                basicObj[NamJSON_PH] = vars["nam"]
-                basicObj[smsJSON_PH] = vars["sms"]
+            basicObj = createBasicObj(vars)
             privacyObj = {
                 "PRIVACY":basicObj
             }
@@ -122,27 +127,7 @@ def saveItToDict(langFilesMap, vars):
                 newLangObj[BRAND][vars["country"]]["PRIVACY"][NamJSON_PH] = vars["nam"]
                 newLangObj[BRAND][vars["country"]]["PRIVACY"][smsJSON_PH] = vars["sms"]
         else:   #New vars["country"] for the json
-            basicObj = {
-                "HEADER": "PRIVACY PREFERENCES",
-                "HEADER_SUB": "I confirm that I’m 16 years old and I have read the information notice provided by the Data Controllers in accordance with local applicable laws, I understand that providing the personal data for profiling and marketing purposes is optional and I:",
-                "HEADER_SUB_1": "",
-                NamJSON_PH: "",
-                "HEADER_SUB_2": "",
-                MarketingJSON_PH: vars["marketing"],
-                ProfilingJSON_PH: vars["profiling"],
-                "HEADER_SUB_3": "",
-                "FOOTER_SUB_1": "",
-                smsJSON_PH: "",
-                "PRIVACY_LINK": "for full text of information notice click here",
-                "PRIVACY_LINK_DCB": "I confirm that I have read privacy policy.",
-                "PRIVACY_MARKETING_LINK": "for full details about marketing purposes click here",
-                "PRIVACY_PROFILING_LINK": "for details about profiling purposes click here",
-                "PRIVACY_TERMCOND_LINK": "full text of T&Cs please click here",
-                "AGREE": "Agree"
-            }
-            if vars["nam"] != "" and vars["sms"] != "":
-                basicObj[NamJSON_PH] = vars["nam"]
-                basicObj[smsJSON_PH] = vars["sms"]
+            basicObj = createBasicObj(vars)
             privacyObj = {
                 "PRIVACY":basicObj
             }
